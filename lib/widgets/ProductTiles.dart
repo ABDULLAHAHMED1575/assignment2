@@ -22,6 +22,7 @@ class _ProducttilesState extends State<Producttiles> {
         widget.products.title,
         style: TextStyle(
           fontSize: 20,
+          fontWeight: FontWeight.bold
         ),
       ),
       subtitle: Text(
