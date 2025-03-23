@@ -17,7 +17,7 @@ class _ProducttilesState extends State<Producttiles> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: Image.asset(widget.products.imageUri, width: 100, height: 150, fit: BoxFit.fitHeight),
+      leading: Image.asset(widget.products.imageUri, width: 100, height: 350, fit: BoxFit.fill),
       title: Text(
         widget.products.title,
         style: TextStyle(
